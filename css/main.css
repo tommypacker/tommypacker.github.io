@@ -6,10 +6,6 @@ html{
     background-size: cover;
 }
 
-html, body {
-    min-height: 100%;
-    min-width: 100%;
-}
 
 .overlay {
     z-index: 1;
