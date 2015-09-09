@@ -43,12 +43,12 @@ html, body {
     font-family: 'Open Sans', sans-serif;
 }
 
-a{
+a {
     color: #FFFFFF;
     text-decoration: none;
 }
 
-a:hover{
+#university:hover{
     text-decoration: underline;
 }
 
@@ -71,4 +71,17 @@ a:hover{
 
 .fa:hover{
     color: black;
+}
+
+.button-name{
+    border: 3px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.button-name:hover{
+    border-color: black;
+    color: black;
+
 }
