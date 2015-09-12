@@ -82,6 +82,11 @@ a {
 }
 
 @media screen and (max-width: 600px) {
+    html, body{
+        height: 100%;
+        width: 100%;
+    }
+
     .welcome{
         position: absolute;
         top: 20%;
