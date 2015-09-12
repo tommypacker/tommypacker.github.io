@@ -102,15 +102,12 @@ a {
         font-size: 20px;
     }
 
-    ul{
-        width: 100%;
-    }
-
     #navList li{
-        display: inline-block;
+        display: block;
         padding-left: 12px;
         padding-right: 12px;
-        width: 70%
+        margin-left: auto;
+        margin-right: auto;
     }
 
     li + li {
