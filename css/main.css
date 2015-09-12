@@ -81,6 +81,10 @@ a {
     margin-right: 5px;
 }
 
+#navList-mobile li{
+    display: none;
+}
+
 @media screen and (max-width: 600px) {
     html, body{
         height: 100%;
@@ -103,14 +107,14 @@ a {
     }
 
     #navList li{
-        display: block;
-        padding-left: 12px;
-        padding-right: 12px;
-        margin-left: auto;
-        margin-right: auto;
+        display: none;
     }
 
-    li + li {
-        margin-top: 30px;
+    #navList-mobile li{
+        display: inline;
+    }
+
+    .fa{
+        font-size: 2.5em;
     }
 }
