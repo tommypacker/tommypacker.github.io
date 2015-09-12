@@ -6,11 +6,6 @@ html{
     background-size: cover;
 }
 
-html, body{
-    width: 100%;
-    height: 100%;
-}
-
 .overlay {
     z-index: 1;
     height: 100%;
@@ -22,7 +17,7 @@ html, body{
     background: rgba(255, 153, 0, 0.55);
 }
 
-.container{
+.welcome{
     position: absolute;
     top: 35%;
     width: 100%;
@@ -50,10 +45,10 @@ a {
 
 #university:hover{
     text-decoration: none;
-    color: orange;
+    color: rgb(260, 75, 0);
 }
 
-.bottomNav{
+.footer{
     position: absolute;
     bottom: 20px;
     text-align: center;
@@ -77,11 +72,43 @@ a {
 }
 
 .button-name:hover{
-    border-color: black;
-    color: black;
+    border-color: rgb(0,0,150);
+    color: rgb(0,0,150);
 }
 
 .fa{
     font-size: 1.5em;
     margin-right: 5px;
+}
+
+@media screen and (max-width: 600px) {
+    .welcome{
+        position: absolute;
+        top: 20%;
+        width: 100%;
+        text-align: center;
+    }
+
+    #title {
+        font-size: 50px;
+    }
+
+    #aboutMe{
+        font-size: 20px;
+    }
+
+    ul{
+        width: 100%;
+    }
+
+    #navList li{
+        display: inline-block;
+        padding-left: 12px;
+        padding-right: 12px;
+        width: 70%
+    }
+
+    li + li {
+        margin-top: 30px;
+    }
 }
