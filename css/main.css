@@ -457,3 +457,11 @@ footer .footer-below {
     display: none;
     opacity: 0;
 }
+
+.email{
+    text-align: center;
+}
+
+.email-details{
+    font-size: 28px;
+}
