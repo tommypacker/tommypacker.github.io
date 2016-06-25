@@ -22,9 +22,9 @@ body {
 
 .side-left {
     left: 0;
-    background: orange;
+    background: deepskyblue;
     color: #fff;
-    outline: orange; /* avoid gap */
+    outline: deepskyblue; /* avoid gap */
 }
 
 .side-right {
@@ -49,7 +49,7 @@ body {
     top: 50%;
     left: 50%;
     padding: 0 1em;
-    width: 50%;
+    width: 60%;
     -webkit-transform: translateY(-50%) translateX(-50%);
     transform: translateY(-50%) translateX(-50%);
 }
@@ -78,10 +78,18 @@ h1 {
 }
 
 #right-hr{
-    border-color: black;
+    border-color: deepskyblue;
 }
 
+#about-text{
+    color: dimgray;
+    font-size: 20px;
+    text-align: left;
+}
 
+#about-title{
+    color: dimgray;
+}
 
 
 
