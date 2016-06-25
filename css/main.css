@@ -77,8 +77,23 @@ h1 {
     font-weight: 200;
 }
 
+a{
+    color: orange;
+}
+
+a:hover{
+    text-decoration: none;
+    color: orange;
+}
+
 #right-hr{
     border-color: deepskyblue;
+    border-width: 2px 0;
+}
+
+#left-hr{
+    border-color: orange;
+    border-width: 2px 0;
 }
 
 #about-text{
