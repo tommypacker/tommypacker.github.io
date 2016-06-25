@@ -34,6 +34,134 @@ body {
     outline: 1px solid #fff; /* avoid gap */
 }
 
+.about-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 0 1em;
+    width: 50%;
+    cursor: pointer;
+    -webkit-transform: translateY(-50%) translateX(-50%);
+    transform: translateY(-50%) translateX(-50%);
+}
+
+
+.profile {
+    margin: 0 auto;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+}
+
+.profile img {
+    max-width: 100%;
+    border-radius: 50%;
+    opacity: 0.9;
+}
+
+
+.mobile-layout .back { /* fixed positioning will make this not clickable after scrolling on some mobile devices */
+    position: absolute;
+}
+
+/* Font Stuff */
+h1 {
+    font-size: 50px;
+}
+
+
+@media screen and (max-width: 83em) {
+    .about-content { font-size: 60%; }
+}
+
+@media screen and (max-width: 58em) {
+    body { font-size: 90%; }
+}
+
+@media screen and (max-width: 49.4375em) {
+    .open-right .side-right {
+        -webkit-transform: translateX(-175%);
+        transform: translateX(-175%);
+    }
+
+    .open-right .side-left {
+        -webkit-transform: translateX(-100%);
+        transform: translateX(-100%);
+    }
+
+    .open-left .side-right {
+        -webkit-transform: translateX(100%);
+        transform: translateX(100%);
+    }
+
+    .open-left .side-left {
+        -webkit-transform: translateX(175%);
+        transform: translateX(175%);
+    }
+
+    .page {
+        width: 100%;
+    }
+
+    .page-right {
+        left: 0;
+        padding-left: 15%;
+    }
+
+    .page-left {
+        padding-right: 15%;
+    }
+
+    .about-content {
+        width: 100%;
+    }
+
+    .open-right .side-right .about-content {
+        top: 100%;
+        -webkit-transform: translateY(-150px) translateX(-12.5%) scale(0.5);
+        transform: translateY(-150px) translateX(-12.5%) scale(0.5);
+    }
+
+    .open-left .side-left .about-content {
+        top: 100%;
+        -webkit-transform: translateY(-150px) translateX(-87.5%) scale(0.5);
+        transform: translateY(-150px) translateX(-87.5%) scale(0.5);
+    }
+
+    .open-right .about-content h1,
+    .open-left .about-content h1 {
+        opacity: 0;
+    }
+
+    .back-left {
+        left: 6.25%;
+    }
+
+    .back-right {
+        right: 6.25%;
+    }
+}
+
+@media screen and (max-width: 42.5em) {
+    body { font-size: 80%; }
+    .about-content { font-size: 50%; }
+}
+
+@media screen and (max-height: 41.125em) {
+    .about-content {
+        -webkit-transform: translateY(-25%) translateX(-50%);
+        transform: translateY(-25%) translateX(-50%);
+    }
+}
+
+@media screen and (max-width: 39.375em) {
+    .about-content .profile { -webkit-transform: scale(0.5); transform: scale(0.5); }
+}
+
+@media screen and (max-width: 320px) {
+    body { font-size: 70%; }
+}
+
 
 
 
