@@ -30,17 +30,26 @@ body {
 .side-right {
     right: 0;
     background: #fff;
-    color: orange;
+    color: black;
     outline: 1px solid #fff; /* avoid gap */
 }
 
-.about-content {
+.intro-content {
     position: absolute;
     top: 50%;
     left: 50%;
     padding: 0 1em;
     width: 50%;
-    cursor: pointer;
+    -webkit-transform: translateY(-50%) translateX(-50%);
+    transform: translateY(-50%) translateX(-50%);
+}
+
+.about-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 0 1em;
+    width: 50%;
     -webkit-transform: translateY(-50%) translateX(-50%);
     transform: translateY(-50%) translateX(-50%);
 }
@@ -50,12 +59,10 @@ body {
     margin: 0 auto;
     width: 140px;
     height: 140px;
-    border-radius: 50%;
 }
 
 .profile img {
     max-width: 100%;
-    border-radius: 50%;
     opacity: 0.9;
 }
 
@@ -66,12 +73,20 @@ body {
 
 /* Font Stuff */
 h1 {
-    font-size: 50px;
+    font-size: 55px;
+    font-weight: 200;
+}
+
+#right-hr{
+    border-color: black;
 }
 
 
+
+
+
 @media screen and (max-width: 83em) {
-    .about-content { font-size: 60%; }
+    .intro-content { font-size: 60%; }
 }
 
 @media screen and (max-width: 58em) {
@@ -112,24 +127,24 @@ h1 {
         padding-right: 15%;
     }
 
-    .about-content {
+    .intro-content {
         width: 100%;
     }
 
-    .open-right .side-right .about-content {
+    .open-right .side-right .intro-content {
         top: 100%;
         -webkit-transform: translateY(-150px) translateX(-12.5%) scale(0.5);
         transform: translateY(-150px) translateX(-12.5%) scale(0.5);
     }
 
-    .open-left .side-left .about-content {
+    .open-left .side-left .intro-content {
         top: 100%;
         -webkit-transform: translateY(-150px) translateX(-87.5%) scale(0.5);
         transform: translateY(-150px) translateX(-87.5%) scale(0.5);
     }
 
-    .open-right .about-content h1,
-    .open-left .about-content h1 {
+    .open-right .intro-content h1,
+    .open-left .intro-content h1 {
         opacity: 0;
     }
 
@@ -144,18 +159,18 @@ h1 {
 
 @media screen and (max-width: 42.5em) {
     body { font-size: 80%; }
-    .about-content { font-size: 50%; }
+    .intro-content { font-size: 50%; }
 }
 
 @media screen and (max-height: 41.125em) {
-    .about-content {
+    .intro-content {
         -webkit-transform: translateY(-25%) translateX(-50%);
         transform: translateY(-25%) translateX(-50%);
     }
 }
 
 @media screen and (max-width: 39.375em) {
-    .about-content .profile { -webkit-transform: scale(0.5); transform: scale(0.5); }
+    .intro-content .profile { -webkit-transform: scale(0.5); transform: scale(0.5); }
 }
 
 @media screen and (max-width: 320px) {
