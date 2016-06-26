@@ -64,7 +64,7 @@ body {
 .profile img {
     max-width: 100%;
     opacity: 0.9;
-    border-radius: 5%;
+    border-radius: 2%;
 }
 
 
@@ -75,6 +75,11 @@ body {
 /* Font Stuff */
 h1 {
     font-size: 55px;
+    font-weight: 300;
+}
+
+h2{
+    font-size: 30px;
     font-weight: 200;
 }
 
@@ -112,6 +117,10 @@ h1 {
     margin-right: 15px;
 }
 
+i{
+    color: white;
+}
+
 .fa:hover{
     color: orange;
 }
@@ -119,6 +128,12 @@ h1 {
 a{
     color: white;
 }
+
+
+#intro-icons{
+    padding-top: 50px;
+}
+
 
 
 @media screen and (max-width: 83em) {
