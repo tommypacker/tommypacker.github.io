@@ -64,6 +64,7 @@ body {
 .profile img {
     max-width: 100%;
     opacity: 0.9;
+    border-radius: 5%;
 }
 
 
@@ -77,11 +78,11 @@ h1 {
     font-weight: 200;
 }
 
-a{
+#illinois-link{
     color: orange;
 }
 
-a:hover{
+#illinois-link:hover{
     text-decoration: none;
     color: orange;
 }
@@ -106,6 +107,18 @@ a:hover{
     color: dimgray;
 }
 
+.fa{
+    display: block;
+    margin-right: 15px;
+}
+
+.fa:hover{
+    color: orange;
+}
+
+a{
+    color: white;
+}
 
 
 @media screen and (max-width: 83em) {
