@@ -27,8 +27,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+            <state relative-caret-position="435">
+              <caret line="29" column="61" selection-start-line="29" selection-start-column="61" selection-end-line="29" selection-end-column="61" />
               <folding />
             </state>
           </provider>
@@ -283,7 +283,8 @@
       <option name="presentableId" value="Default" />
       <updated>1441678584123</updated>
       <workItem from="1466885153463" duration="11503000" />
-      <workItem from="1466959976140" duration="57000" />
+      <workItem from="1466959976140" duration="79000" />
+      <workItem from="1466960295890" duration="13000" />
     </task>
     <task id="LOCAL-00001" summary="Refactor">
       <created>1441680008803</created>
@@ -544,11 +545,18 @@
       <option name="project" value="LOCAL" />
       <updated>1451887268046</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Added Google Analytics back">
+      <created>1466960049535</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1466960049535</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11560000" />
+    <option name="totallyTimeSpent" value="11595000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -589,7 +597,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="New branch" />
     <MESSAGE value="Remove analytics" />
     <MESSAGE value="Slightly more mobile friendly" />
     <MESSAGE value="Fix background image on mobile" />
@@ -614,13 +621,30 @@
     <MESSAGE value="Added analytics back in" />
     <MESSAGE value="Switch to an orange theme to match UIUC :)" />
     <MESSAGE value="Add custom domain name" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add custom domain name" />
+    <MESSAGE value="Added Google Analytics back" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Google Analytics back" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1560">
+          <caret line="104" column="1" selection-start-line="104" selection-start-column="1" selection-end-line="104" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -832,8 +856,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        <state relative-caret-position="435">
+          <caret line="29" column="61" selection-start-line="29" selection-start-column="61" selection-end-line="29" selection-end-column="61" />
           <folding />
         </state>
       </provider>
