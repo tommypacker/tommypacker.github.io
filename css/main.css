@@ -73,7 +73,7 @@ body {
 }
 
 /* Font Stuff */
-h1 {
+#name {
     font-size: 55px;
     font-weight: 300;
 }
@@ -136,12 +136,19 @@ a{
 
 
 
-@media screen and (max-width: 83em) {
-    .intro-content { font-size: 60%; }
+@media screen and (max-width: 75em) {
+    #name{ font-size: 35px}
+    #about-subtitle{ font-size: 25px}
+    #left-hr {width: 45%}
+    .intro-content { font-size: 75%; }
+    .about-content{ font-size: 75%; }
 }
 
 @media screen and (max-width: 58em) {
-    body { font-size: 90%; }
+    #name{ font-size: 30px}
+    #about-subtitle{ font-size: 20px}
+    #left-hr {width: 40%}
+    .intro-content { font-size: 70%; }
 }
 
 @media screen and (max-width: 49.4375em) {
