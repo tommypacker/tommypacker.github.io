@@ -1,59 +1,31 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Tommy Yu</title>
 
-<head>
-    <title>Thomas Yu</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="css/main.css">
-    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
-
-    <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-        ga('create', 'UA-67431005-1', 'auto');
-        ga('send', 'pageview');
-    </script>
-</head>
-
-<body id="home">
-    <div class="container">
-        <div id="splitlayout" class="splitlayout">
-            <div class="intro">
-                <div id="left-side" class="side side-left">
-                    <canvas id="canvas"></canvas>
-                    <div class="intro-content">
-                        <div class="profile"><img src="img/profile.jpg" alt="profile1"></div>
-                        <h1 id="name">Thomas Yu</h1>
-                        <hr width="50%" id="left-hr">
-                        <h2 id="about-subtitle">CS @ Illinois</h2>
-                        <div id="intro-icons">
-                            <a href="https://github.com/tommypacker"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
-                            <a href="https://www.linkedin.com/in/tommy-yu-aba043ba"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
-                            <a href="Resume.pdf"><i class="fa fa-file-text-o fa-2x" aria-hidden="true"></i></a>
-                            <a href="https://twitter.com/tommyyu22"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="side side-right">
-                    <div class="about-content">
-                        <h1 id="about-title">About</h1>
-                        <hr size="20" width="50%" id="right-hr">
-                        <br>
-                        <p class="about-text">Hi, I'm Tommy, a Computer Science Major at the <a id="illinois-link" href="http://illinois.edu/">University of Illinois at Urbana Champaign</a>.
-                            This summer I'll be working at Uber as a Software Engineering Inten.</p>
-                        <p class="about-text">I'm a software developer with experience in Android, iOS, and Full-Stack Web Development.</p>
-                        <p class="about-text">When I'm not coding I enjoy watching football, hacking various Android phones, and playing basketball with friends.</p>
-                        </p>
-                    </div>
-                </div>
-            </div><!-- /intro -->
-        </div><!-- /splitlayout -->
-    </div><!-- /container -->
-    <script src="js/TweenLite.min.js"></script>
-    <script src="js/EasePack.min.js"></script>
-    <script src="js/rAF.js"></script>
-    <script src="js/particles.js"></script>
-</body>
+         <link rel="stylesheet" href="main.css">
+         <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+        <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+        <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+        <div class="overlay">
+            <div class="content">
+            <p id="main" class="text">Hello, my name is Tommy.</p>
+            <p class="text">I'm currently the <a id="acm" href="https://acm.illinois.edu/">Chair of ACM@UIUC</a> and a SWE Intern at <a id="uber" href="https://www.uber.com">Uber</a>. You can find out more about me below.</p>
+            <div id="intro-icons">
+                <a href="https://github.com/tommypacker"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
+                <a href="https://www.linkedin.com/in/tommy-yu-aba043ba"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
+                <a href="Resume.pdf"><i class="fa fa-file-text-o fa-2x" aria-hidden="true"></i></a>
+                <a href="https://twitter.com/tommyyu22"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+            </div>
+        </div>
+        </div>
+    </body>
 </html>

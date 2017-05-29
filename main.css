@@ -1,0 +1,71 @@
+body {
+	background: url('back2.jpg') center center fixed;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.overlay {
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    overflow: auto;
+    top: 0px;
+    left: 0px;
+    background: rgba(0, 0, 0, 0.12);
+}
+
+.content {
+	font-family: 'Roboto-mono', sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+#main {
+	font-size: 265%;
+}
+
+#acm {
+	color: black;
+}
+
+#acm:hover {
+	text-decoration: none;
+	color: #FA6300;
+}
+
+#uber {
+	color: black;
+}
+
+#uber:hover {
+	text-decoration: none;
+	color: white;
+}
+
+.text {
+	font-size: 165%;
+	color: black;
+}
+
+#intro-icons {
+  	margin: 0 auto;
+  	padding-top: 10px;
+}
+
+.fa{
+    display: block;
+    margin-right: 20px;
+    color: black;
+}
+
+.fa:hover{
+    color: white;
+}
+
