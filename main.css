@@ -37,7 +37,7 @@ body {
 
 #acm:hover {
 	text-decoration: none;
-	color: #FA6300;
+	color: white;
 }
 
 #uber {
@@ -47,6 +47,24 @@ body {
 #uber:hover {
 	text-decoration: none;
 	color: white;
+}
+
+#airbnb {
+    color: black;
+}
+
+#airbnb:hover {
+    text-decoration: none;
+    color: #fd5c63;
+}
+
+#facebook {
+    color: black;
+}
+
+#facebook:hover {
+    text-decoration: none;
+    color: #3b5998;
 }
 
 .text {
@@ -65,7 +83,21 @@ body {
     color: black;
 }
 
-.fa:hover{
+.fa-linkedin:hover{
+    color: #0077b5;
+}
+
+.fa-github:hover{
     color: white;
 }
+
+.fa-file-text-o:hover{
+    color: white;
+}
+
+.fa-twitter:hover{
+    color: #00aced;
+}
+
+
 
