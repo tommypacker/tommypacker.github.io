@@ -35,6 +35,7 @@
       <button onclick="onClick()">Test</button>
       <script>
         function onClick(e) {
+          alert("CALLED")
           grecaptcha.ready(function () {
             grecaptcha.execute('6LeGrKQZAAAAAEkW2ZEHaO708YlseuHFOvYzkLdZ', {
               action: 'submit'
